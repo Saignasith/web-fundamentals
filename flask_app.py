@@ -27,10 +27,6 @@ def accueil():
 @app.get("/presentation")
 def presentation():
     return render_template("presentation.html", prenom="Your brotato", nom="echa")
-
-@app.get("/loisirs")
-def loisirs():
-    return "i crash cars into walls"
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
