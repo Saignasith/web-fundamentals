@@ -20,13 +20,14 @@ app = Flask(__name__)
 def accueil():
     return render_template("accueil.html")
 
-
-# ---------------------------------------------------------------
-#  Ajoutez vos nouvelles routes ci-dessous 👇
-# ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
     return render_template("presentation.html", prenom="Your brotato", nom="echa")
+
+@app.get("/bonjour/<prenom>")
+def bonjour(prenom):
+    return f"<h1>Bonjour {prenom} !</h1>"
+
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
