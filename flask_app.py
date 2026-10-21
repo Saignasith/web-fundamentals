@@ -46,7 +46,7 @@ def salut():
     else:
         prenom = request.args.get("prenom", "inconnu")
         ville = request.args.get("ville", "nulle part")
-    return <"couleur">f"Bonjour {prenom}, qui vient de {ville} ! (reçu en {request.method})"</"couleur">
+    return f"Bonjour {prenom=name}, qui vient de {ville} ! (reçu en {request.method})"
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
