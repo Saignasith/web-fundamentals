@@ -1,8 +1,8 @@
 # 📒 Mon carnet de bord
 
-**Nom : Saignasith** 
+**Nom :** Saignasith
 
-**Prénom : Alice** 
+**Prénom :** Alice
 
 **Adresse de mon site :** https://saignasith.pythonanywhere.com
 
