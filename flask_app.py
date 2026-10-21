@@ -26,21 +26,7 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return render_template("presentation.html", prenom="Léa", nom="Martin")
-
-/*
-    return """
-    <h1>echa</h1>
-    <p>echa's short for <strong>echachai</strong>.</p>
-    <h2>I like</h2>
-    <ul>
-        <li>crashing cars into walls</li>
-        <li>chemicals going bshhhhhrrrrrrvooombboobmpshhh</li>
-        <li>zzzzzzzzzz</li>
-    </ul>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaZL3vLDjHzDJ0ayDi7wF-BqtYooQAUVCAegnv_lbakA&s=10" width="100">
-    """
-*/
+    return render_template("presentation.html", prenom="echa", nom="noob")
 
 @app.get("/loisirs")
 def loisirs():
