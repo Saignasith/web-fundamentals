@@ -1,3 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    color: #222;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIxk56ctaFup9CMFmog5pWimRILJcdg1VVBkIVYHYaA&s=10'); background-size: cover; height: 100%; width: 100%;
+}
 
-    <div style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIxk56ctaFup9CMFmog5pWimRILJcdg1VVBkIVYHYaA&s=10'); background-size: cover; height: 100%; width: 100%;">
-    </div>
+h1 {
+    color: #7490E8;
+}
+
+nav a {
+    margin-right: 15px;
+}
