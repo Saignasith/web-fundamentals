@@ -48,19 +48,7 @@ def salut():
         prenom = request.args.get("prenom", "inconnu")
         ville = request.args.get("ville", "nulle part")
         couleur = request.args.get('couleur', 'black')
-    return 
-        <!DOCTYPE html>
-        <html lang="fr">
-        <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="/static/style.css">
-        </head>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/presentation">Presentation</a>
-            <a href="/form">Form</a>
-        </nav>
-        f'<p style="color: {couleur};">Bonjour {prenom}, qui vient de {ville} ! (reçu en {request.method})</p>'
+    return f'<p style="color: {couleur};">Bonjour {prenom}, qui vient de {ville} ! (reçu en {request.method})</p>'
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
