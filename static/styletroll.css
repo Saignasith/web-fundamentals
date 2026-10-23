@@ -1,8 +1,8 @@
 html {
     background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
                       url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFkjYWbvWMuCe8De5Y2hES9dHBGoUpirKuSbExXuov9Q&s=10'); 
-    background-size: cover; 
-    /*background-position: center;*/
+    background-size: contain; 
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
