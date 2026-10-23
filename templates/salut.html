@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Salut</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<nav>
+    <a href="/form">Back</a>
+</nav>
+<body>
+    <h1>Faisons connaissance</h1>
+    <form action="/salut" method="get">
+        <label>Votre prénom : <input type="text" name="prenom"></label>
+        <label>Votre ville : <input type="text" name="ville"></label>
+        <select name="couleur">
+            <option value="black">Noir</option>
+            <option value="tomato">Rouge</option>
+            <option value="teal">Vert</option>
+            <option value="royalblue">Bleu</option>
+            <option value="gold">Doré</option>
+            <option value="silver">Argent</option>
+        </select>
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
