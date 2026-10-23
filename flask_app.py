@@ -34,7 +34,7 @@ def calcul():
     b = int(request.args.get("b", 0))
     return f"{a} + {b} = {a + b}"
 
-@app.get("/formulaire")
+@app.get("/form")
 def formulaire():
     return render_template("formulaire.html")
 
