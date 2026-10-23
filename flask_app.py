@@ -49,7 +49,6 @@ def salut():
         ville = request.args.get("ville", "nulle part")
         couleur = request.args.get('couleur', 'black')
     return render_template("salut.html", prenom=prenom, ville=ville, couleur=couleur)
-    # f'<p style="color: {couleur};">Bonjour {prenom}, qui vient de {ville} ! (reçu en {request.method})</p>'
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
