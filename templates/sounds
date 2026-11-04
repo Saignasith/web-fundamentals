@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Sounds</title>
+    <link rel="stylesheet" href="/static/styletroll.css">
+</head>
+<body>
+    <audio controls src="https://raw.githubusercontent.com/Saignasith/web-fundamentals/main/audio/ElevatorMusic.mp3"></audio>
+</body>
+</html>
