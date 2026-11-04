@@ -51,7 +51,7 @@ def salut():
     return render_template("salut.html", prenom=prenom, ville=ville, couleur=couleur)
 
 @app.get("/sounds")
-def formulaire():
+def sounds():
     return render_template("sounds.html")
 
 # ---------------------------------------------------------------
