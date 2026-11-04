@@ -50,6 +50,10 @@ def salut():
         couleur = request.args.get('couleur', 'black')
     return render_template("salut.html", prenom=prenom, ville=ville, couleur=couleur)
 
+@app.get("/sounds")
+def formulaire():
+    return render_template("sounds.html")
+
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
