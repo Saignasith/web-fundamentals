@@ -1,6 +1,6 @@
 html {
     background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
-                      url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFkjYWbvWMuCe8De5Y2hES9dHBGoUpirKuSbExXuov9Q&s=10'); 
+                      url('https://media.discordapp.net/attachments/1220264424904855633/1220264425316159528/Sarpcesarp_Opel_Astra_7.png?ex=6aed79ce&is=6aec284e&hm=e50adc5cbb90513d4ba7b04058e255e50a7a17170aa91aae3543d1909ba4e967&=&format=webp&quality=lossless&width=1280&height=769'); 
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +8,7 @@ html {
     height: 100%;
 }
 
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFkjYWbvWMuCe8De5Y2hES9dHBGoUpirKuSbExXuov9Q&s=10 */
 
 body {
     font-family: Arial, sans-serif;
