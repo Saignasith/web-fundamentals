@@ -65,6 +65,16 @@ def salut():
         couleur = request.args.get('couleur', 'black')
     return render_template("salut.html", prenom=prenom, ville=ville, couleur=couleur)
 
+@app.get("/moi")
+def moi():
+    return render_template(
+        "moi.html",
+        ip=request.headers.get("X-Real-IP", request.remote_addr),
+        navigateur=request.headers.get("User-Agent"),
+        langues=request.headers.get("Accept-Language"),
+        entetes=request.headers,
+    )
+
 @app.get("/sounds")
 def sounds():
     return render_template("sounds.html")
