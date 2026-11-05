@@ -95,11 +95,11 @@
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ On a 200 quand la requete marche et 404 quand le server ne trouve pas les donees.
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Les modifs sont faites sur le code du navigateur, le code qui est sur le server reste le meme donc si d'autres visiteurs envoie une requete pour voir le site web ils recevront la version du server.
 
 ---
 
