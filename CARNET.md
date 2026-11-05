@@ -91,7 +91,7 @@
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ 9 requetes : presentation, styletroll.ss, 2 images, un bouton audio, 3 data d'image, favicon.io
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
