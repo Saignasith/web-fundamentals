@@ -87,7 +87,7 @@
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ HyperText Transfer Protocol. Le client (navigateur) envoie une requete et le server (pythonanywhere) lui renvoie le code reponse.
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
